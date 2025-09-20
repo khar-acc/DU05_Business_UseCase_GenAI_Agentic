@@ -1,3 +1,5 @@
+#Developed by Kharmukilan Muthuraman
+#This python program matches the shift dates with the FG billable dates and generates a report based on the comparison.
 import pandas as pd
 import tkinter as tk
 from tkinter import filedialog, messagebox
@@ -102,3 +104,4 @@ tk.Button(root, text="Start Processing", command=start_processing).grid(row=2, c
 
 # Run the GUI
 root.mainloop()
+
